@@ -22,8 +22,6 @@ async function buscarCidade(cidade){
     .then(resposta => resposta.json())
 
     colocarNaTela(dados)
-
-    console.log(dados)
 }
 
 
