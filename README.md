@@ -1,51 +1,65 @@
-<h1 align="center">Welcome to Dev Previsão 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/npm-%3E%3D5.5.0-blue.svg" />
-  <img src="https://img.shields.io/badge/node-%3E%3D9.3.0-blue.svg" />
-  <a href="https://github.com/kefranabg/readme-md-generator#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/rafaelfaust/Dev Previsão" />
-  </a>
-  <a href="https://twitter.com/webfaelgamer" target="_blank">
-    <img alt="Twitter: webfaelgamer" src="https://img.shields.io/twitter/follow/webfaelgamer.svg?style=social" />
-  </a>
-</p>
+# Weather App
 
-> 
+Este é um projeto de aplicativo de previsão do tempo que utiliza a API WeatherMap.org para fornecer informações meteorológicas. O aplicativo foi desenvolvido utilizando HTML, CSS e JavaScript.
 
-### 🏠 [Homepage](https://weather.webfael.com.br/)
+## Funcionalidades
 
-## Prerequisites
+- Exibe a previsão do tempo atual e detalhada para uma determinada localização.
+- Mostra informações como temperatura, umidade, velocidade do vento, condições climáticas e horários de nascer e pôr do sol.
+- Permite buscar previsões do tempo para diferentes cidades e países.
 
-- none
+## Demo
 
-## Author
+Você pode experimentar o aplicativo acessando [aqui](https://weather-rafaelfaust.netlify.app).
 
-👤 **Rafael Faust**
+## Pré-requisitos
 
-* Website: rafaelfaust
-* Twitter: [@webfaelgamer](https://twitter.com/webfaelgamer)
-* GitHub: [@rafaelfaust](https://github.com/rafaelfaust)
-* LinkedIn: [@rafaelfaustrodrigues](https://linkedin.com/in/rafaelfaustrodrigues)
+Antes de executar o aplicativo localmente, você precisará ter os seguintes requisitos instalados em sua máquina:
 
-## 🤝 Contributing
+- Navegador da web (Chrome, Firefox, Safari, etc.)
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/kefranabg/readme-md-generator/issues). You can also take a look at the [contributing guide](https://github.com/kefranabg/readme-md-generator/blob/master/CONTRIBUTING.md).
+## Configuração
 
-## Show your support
+Siga as instruções abaixo para configurar o projeto em sua máquina:
 
-Give a ⭐️ if this project helped you!
+1. Clone o repositório:
 
-## 📝 License
+```bash
+git clone https://github.com/rafaelfaust/weather.git
+```
 
-Copyright © 2023 [Rafael Faust](https://github.com/rafaelfaust).<br />
-This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
+2. Navegue até o diretório do projeto:
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+```bash
+cd weather
+```
+
+3. Abra o arquivo `index.html` em seu navegador da web.
+
+## Uso
+
+Para utilizar o aplicativo, siga as etapas abaixo:
+
+1. Na página inicial, digite o nome da cidade ou país para o qual você deseja ver a previsão do tempo.
+2. Clique no botão "Buscar" ou pressione a tecla Enter.
+3. A previsão do tempo atual será exibida na parte inferior da página, incluindo informações como temperatura, umidade, velocidade do vento e condições climáticas.
+4. Para ver mais detalhes, clique no botão "Detalhes".
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você quiser contribuir com este projeto, siga as etapas abaixo:
+
+1. Faça um fork do repositório.
+2. Crie uma branch para sua nova feature: `git checkout -b minha-nova-feature`.
+3. Faça as alterações desejadas e salve o arquivo.
+4. Faça o commit das suas alterações: `git commit -m 'Adicionando minha nova feature'`.
+5. Faça o push para o branch: `git push origin minha-nova-feature`.
+6. Envie um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
+
+## Contato
+
+Se você tiver alguma dúvida, sugestão ou quiser entrar em contato, você pode me encontrar no GitHub como [rafaelfaust](https://github.com/rafaelfaust).
